@@ -6,6 +6,12 @@ module.exports = {
       colors: {
         backgroundLight: "#1F3757",
         backgroundDark: "#131537",
+        lightWhite: "rgba(255, 255, 255, 0.289199);",
+        lightBlue: "#2A45C2",
+        lightGray: "#565468",
+      },
+      fontFamily: {
+        barlowSemiCondensed: ["Barlow Semi Condensed", "sans-serif"],
       },
     },
   },

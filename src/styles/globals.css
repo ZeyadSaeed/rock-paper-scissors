@@ -1,7 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@600;700&display=swap');
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
+*, *::before, *::after {
+  @apply font-barlowSemiCondensed;
+}
+
 body {
-  @apply bg-gradient-to-b from-backgroundLight to-backgroundDark w-screen h-screen;
+  @apply bg-gradient-to-b from-backgroundLight to-backgroundDark w-screen h-screen; 
 }
